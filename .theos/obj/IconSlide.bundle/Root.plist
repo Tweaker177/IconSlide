@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+<dict>
+<key>backgroundGradientColors</key>
+			<array>
+				<string>#FF0021</string>
+				<string>#FF8800</string>
+				<string>#FFDB00</string>
+			</array>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBPackageNameHeaderCell</string>
+			<key>icon</key>
+			<string>icon@3x.png</string>
+			<key>packageIdentifier</key>
+	<string>com.i0stweak3r.iconslide</string>
+			<key>subtitleColor</key>
+			<string>#00ABF6</string>
+			<key>titleColor</key>
+			<string>#006BFE</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Optimized for iPhone and iPod touch. Only affects icon layout in Portrait. Purposely disabled when rotating so it looks ok in landscape. This package is a work in progress.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Set slider to reflect amount to move down icons. 100 moves it down about one row on most devices, can move all the way down though if looking for lower placement. All changes to this slider require respring.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.i0stweak3r.iconslide-prefsreload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>SRSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+	<string>com.i0stweak3r.iconslide</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enable tweak:</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.i0stweak3r.iconslide-prefsreload</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>100</real>
+			<key>defaults</key>
+	<string>com.i0stweak3r.iconslide</string>
+			<key>key</key>
+			<string>statusBarHeight</string>
+			<key>max</key>
+			<real>600</real>
+			<key>min</key>
+			<real>-20</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Set slider to custom dock height to be used for bounds of icons. This slider does not require respring to see changes.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.i0stweak3r.iconslide-prefsreload</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>cellClass</key>
+			<string>SRSwitchTableCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+	<string>com.i0stweak3r.iconslide</string>
+			<key>key</key>
+			<string>dockEnabled</string>
+			<key>label</key>
+			<string>Adjust Dock:</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.i0stweak3r.iconslide-prefsreload</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>103</real>
+			<key>defaults</key>
+	<string>com.i0stweak3r.iconslide</string>
+			<key>key</key>
+			<string>dockHeight</string>
+			<key>max</key>
+			<real>600</real>
+			<key>min</key>
+			<real>-200</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Tweak created by iOs_tweak3r. Right now for iPhone and iPods only, will update for iPads soon, and add more options. Follow on Twitter for updates on all my tweaks.</string>
+		</dict>
+		<dict>
+			<key>big</key>
+			<true/>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>i0s_tweak3r</string>
+			<key>user</key>
+			<string>BrianVS</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>IconSlide (beta)</string>
+</dict>
+</plist>

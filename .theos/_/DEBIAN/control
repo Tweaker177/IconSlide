@@ -1,0 +1,10 @@
+Package: com.i0stweak3r.iconslide
+Name: IconSlide
+Author: i0s_tweak3r
+Description: Moves home screen icons down further on the page, to make room for widgets or other content. Super light weight Boxy style tweak compatible with FolderControllerXII. Hope to add custom rows and columns as well eventually.
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), ws.hbang.common (>= 1.11)
+Maintainer: i0s_tweak3r
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 0.0.1-7
+Installed-Size: 320
