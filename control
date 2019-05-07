@@ -6,4 +6,4 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), ws.hbang.common 
 Maintainer: i0s_tweak3r
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 0.0.1
+Version: 0.0.2
